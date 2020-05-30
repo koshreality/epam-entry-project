@@ -1,0 +1,161 @@
+### authenticate
+// @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "alexmanager",
+  "password": "111"
+}
+
+### get all applications
+// @no-cookie-jar
+GET http://localhost:8080/applications
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbGV4bWFuYWdlciIsImV4cCI6MTU4OTgyNTg3NSwiaWF0IjoxNTg5ODA3ODc1fQ.37EhG4ufdoswNPHQHXcIqP2WJKN3X_bS3dwvN3zOQeXb3_CR-aCCAw02ks_Ovm5NIfWSHessmD7pnxbhMWzgrw
+
+### create application
+// @no-cookie-jar
+POST http://localhost:8080/applications
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0aGlzIiwiZXhwIjoxNTg5MzgxNTQ5LCJpYXQiOjE1ODkzNjM1NDl9.oFZ9KVqk0wrNkZ-HcYSOIxxB7STBg4gYG-xMybs0M9cJzCc7uWuDzya-5PqflH7a1GW3NVkVsIoL-uU_1wBFcg
+
+{
+  "username": "testtest",
+  "officeTitle": "HomeOffice"
+}
+
+### get application by id
+// @no-cookie-jar
+GET http://localhost:8080/applications/3
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0MzI1OCwiaWF0IjoxNTg5MjI1MjU4fQ.NcU79XJhoOK3YfC9BtZoDqfRbnK1t1x_amxYF14UizGCyDjrKiTOe7V2TPlKKohg45OJQKwvbvJ5qZoPL71ilA
+
+### update application
+// @no-cookie-jar
+PUT http://localhost:8080/applications/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnZ3MiLCJleHAiOjE1ODkzODE0MTIsImlhdCI6MTU4OTM2MzQxMn0.St765klseo-PJWzV94fdLNAg5Wzd3rXygKP-cezSWDCWHVuFFStQ5r03YiNO0Txm9-8skdV1foaFnAiQ3_aJwg
+
+
+{
+  "status": "OPEN"
+}
+
+### delete application by id
+// @no-cookie-jar
+DELETE http://localhost:8080/applications/3
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0NjczNCwiaWF0IjoxNTg5MjI4NzM0fQ.HjipRSPPtWDIAanKse_dM9cSycATPT7XsrbCQkUbCRDOQ9HnAbFO_LjgXqnhhLU4-ii37ttdGnUCd48AXZOvvg
+
+### delete all applications
+// @no-cookie-jar
+DELETE http://localhost:8080/applications/
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0NjczNCwiaWF0IjoxNTg5MjI4NzM0fQ.HjipRSPPtWDIAanKse_dM9cSycATPT7XsrbCQkUbCRDOQ9HnAbFO_LjgXqnhhLU4-ii37ttdGnUCd48AXZOvvg
+
+##################################################################################################################
+
+### create office
+// @no-cookie-jar
+POST http://localhost:8080/offices
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MTUxMCwiaWF0IjoxNTg5NzIzNTEwfQ.36lHWztgrCSar3vqoTZEW4bbWzzAzmiZBVpZuYdOQbpoeDHTJ4nGmoPwAm4c6fFmy9IuIR-3hw5z_8ZagJxzCA
+
+
+{
+  "title": "dfghj"
+}
+
+### get all offices
+// @no-cookie-jar
+GET http://localhost:8080/offices
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MTUxMCwiaWF0IjoxNTg5NzIzNTEwfQ.36lHWztgrCSar3vqoTZEW4bbWzzAzmiZBVpZuYdOQbpoeDHTJ4nGmoPwAm4c6fFmy9IuIR-3hw5z_8ZagJxzCA
+
+### get office by id
+// @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc2MzY2NCwiaWF0IjoxNTg5NzQ1NjY0fQ.jKyK6cNh5NToe1wzwVjog6G9AkL4bLs1mPZ-W9b6SxeVLNKtm0OpXZUFBZ6bH6nhpEs10GZ2gNy-Pb8WNB8YBQ
+
+### get office by title
+// @no-cookie-jar
+GET http://localhost:8080/offices/?title=test
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0MzI1OCwiaWF0IjoxNTg5MjI1MjU4fQ.NcU79XJhoOK3YfC9BtZoDqfRbnK1t1x_amxYF14UizGCyDjrKiTOe7V2TPlKKohg45OJQKwvbvJ5qZoPL71ilA
+
+### update office
+// @no-cookie-jar
+PUT http://localhost:8080/offices/15
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0MzI1OCwiaWF0IjoxNTg5MjI1MjU4fQ.NcU79XJhoOK3YfC9BtZoDqfRbnK1t1x_amxYF14UizGCyDjrKiTOe7V2TPlKKohg45OJQKwvbvJ5qZoPL71ilA
+
+{
+  "title": "sometitle"
+}
+
+### delete office by id
+// @no-cookie-jar
+DELETE http://localhost:8080/offices/16
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0NjczNCwiaWF0IjoxNTg5MjI4NzM0fQ.HjipRSPPtWDIAanKse_dM9cSycATPT7XsrbCQkUbCRDOQ9HnAbFO_LjgXqnhhLU4-ii37ttdGnUCd48AXZOvvg
+
+### delete all offices
+// @no-cookie-jar
+DELETE http://localhost:8080/offices/
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0NjczNCwiaWF0IjoxNTg5MjI4NzM0fQ.HjipRSPPtWDIAanKse_dM9cSycATPT7XsrbCQkUbCRDOQ9HnAbFO_LjgXqnhhLU4-ii37ttdGnUCd48AXZOvvg
+
+###################################################################################################################
+
+### create user
+// @no-cookie-jar
+POST http://localhost:8080/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTMzNDAxMSwiaWF0IjoxNTg5MzE2MDExfQ.AugPwP8RxFuhcxypKIfZpk3KG9cy_mHy_GbJEbm0WfC83-ybz88_jLfEl1gl2n7nnvfeejqknRtx5hu7P75v1w
+
+{
+  "name": "Manager",
+  "email": "manager@gmail.com",
+  "username": "manager",
+  "password": "manager",
+  "role": "MANAGER"
+}
+
+
+### get all users
+// @no-cookie-jar
+GET http://localhost:8080/users
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc2NDQ4MCwiaWF0IjoxNTg5NzQ2NDgwfQ.CuZGSMHrL7qYxwmwgqO7B1fyoabps8tVzI4-4dORXjgwrbLkvBmQwImM7QSxJsrOTPZAXy31yB2oKKwgI461cQ
+
+
+### get user by id
+// @no-cookie-jar
+GET http://localhost:8080/users/9
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0MzI1OCwiaWF0IjoxNTg5MjI1MjU4fQ.NcU79XJhoOK3YfC9BtZoDqfRbnK1t1x_amxYF14UizGCyDjrKiTOe7V2TPlKKohg45OJQKwvbvJ5qZoPL71ilA
+
+
+### get user by name
+// @no-cookie-jar
+GET http://localhost:8080/users/?name=Petr
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc2NDExNCwiaWF0IjoxNTg5NzQ2MTE0fQ.0voihROF2LC3LVquIbPHnqiN_JWnHLvy0E0r9sYy_4mkNlajUkwtrg_nDpJ1I69Zue8lSPEKgTsiSZE9FhFebA
+
+### update user
+// @no-cookie-jar
+PUT http://localhost:8080/users/6
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0MzI1OCwiaWF0IjoxNTg5MjI1MjU4fQ.NcU79XJhoOK3YfC9BtZoDqfRbnK1t1x_amxYF14UizGCyDjrKiTOe7V2TPlKKohg45OJQKwvbvJ5qZoPL71ilA
+
+{
+  "role": "SUPERVISOR"
+}
+
+### delete user by id
+// @no-cookie-jar
+DELETE http://localhost:8080/users/11
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0NjczNCwiaWF0IjoxNTg5MjI4NzM0fQ.HjipRSPPtWDIAanKse_dM9cSycATPT7XsrbCQkUbCRDOQ9HnAbFO_LjgXqnhhLU4-ii37ttdGnUCd48AXZOvvg
+
+### delete all users
+// @no-cookie-jar
+DELETE http://localhost:8080/users/
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dGVzdCIsImV4cCI6MTU4OTI0NjczNCwiaWF0IjoxNTg5MjI4NzM0fQ.HjipRSPPtWDIAanKse_dM9cSycATPT7XsrbCQkUbCRDOQ9HnAbFO_LjgXqnhhLU4-ii37ttdGnUCd48AXZOvvg

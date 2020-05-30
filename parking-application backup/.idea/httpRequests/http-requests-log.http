@@ -1,0 +1,566 @@
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "alexmanager",
+  "password": "111"
+}
+
+<> 2020-05-20T022704.200.txt
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "alexmanager",
+  "password": "111"
+}
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "alexmanager",
+  "password": "111"
+}
+
+<> 2020-05-18T093300.200.txt
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "alexmanager",
+  "password": "111"
+}
+
+<> 2020-05-18T062322.200.txt
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/applications
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbGV4bWFuYWdlciIsImV4cCI6MTU4OTgyNTg3NSwiaWF0IjoxNTg5ODA3ODc1fQ.37EhG4ufdoswNPHQHXcIqP2WJKN3X_bS3dwvN3zOQeXb3_CR-aCCAw02ks_Ovm5NIfWSHessmD7pnxbhMWzgrw
+
+<> 2020-05-18T041806.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "alexmanager",
+  "password": "111"
+}
+
+<> 2020-05-18T041755.200.txt
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-18T041642.401.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-18T041630.401.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/users
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc2NDQ4MCwiaWF0IjoxNTg5NzQ2NDgwfQ.CuZGSMHrL7qYxwmwgqO7B1fyoabps8tVzI4-4dORXjgwrbLkvBmQwImM7QSxJsrOTPZAXy31yB2oKKwgI461cQ
+
+<> 2020-05-17T111504.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T111441.200.txt
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/users/?name=petr
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc2NDExNCwiaWF0IjoxNTg5NzQ2MTE0fQ.0voihROF2LC3LVquIbPHnqiN_JWnHLvy0E0r9sYy_4mkNlajUkwtrg_nDpJ1I69Zue8lSPEKgTsiSZE9FhFebA
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/users/?name=Petr
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc2NDExNCwiaWF0IjoxNTg5NzQ2MTE0fQ.0voihROF2LC3LVquIbPHnqiN_JWnHLvy0E0r9sYy_4mkNlajUkwtrg_nDpJ1I69Zue8lSPEKgTsiSZE9FhFebA
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/users
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc2NDExNCwiaWF0IjoxNTg5NzQ2MTE0fQ.0voihROF2LC3LVquIbPHnqiN_JWnHLvy0E0r9sYy_4mkNlajUkwtrg_nDpJ1I69Zue8lSPEKgTsiSZE9FhFebA
+
+<> 2020-05-17T110853.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T110834.200.txt
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc2MzY2NCwiaWF0IjoxNTg5NzQ1NjY0fQ.jKyK6cNh5NToe1wzwVjog6G9AkL4bLs1mPZ-W9b6SxeVLNKtm0OpXZUFBZ6bH6nhpEs10GZ2gNy-Pb8WNB8YBQ
+
+<> 2020-05-17T110134.404.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T110104.200.txt
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0NDU0MSwiaWF0IjoxNTg5NzI2NTQxfQ.oJ6rysEpGdJYqi652ETKPagP2zCW5BjfUFWhqEgRAOwQrZ_GAyAFw6pbuBXdL9xBhpVuSqcmZpxcQcLIqW1ybg
+
+<> 2020-05-17T110050.401.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0NDU0MSwiaWF0IjoxNTg5NzI2NTQxfQ.oJ6rysEpGdJYqi652ETKPagP2zCW5BjfUFWhqEgRAOwQrZ_GAyAFw6pbuBXdL9xBhpVuSqcmZpxcQcLIqW1ybg
+
+<> 2020-05-17T054339.404.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T054222.200.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0Mjc3NCwiaWF0IjoxNTg5NzI0Nzc0fQ.rQ5W8dd5B55CNyCbkyEjTKJ3Onm_4r3sC-4ysgIVsVcadmNRuYsWetHWBqIO4yRJZbDoyh6DT5kHAlFOvi5n2Q
+
+<> 2020-05-17T051312.404.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T051255.200.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MjU0OCwiaWF0IjoxNTg5NzI0NTQ4fQ.GwcIh1qjPmAfeRv6X3VpEKCAOSIQ4EmPJ6J4iWRUlBzeCJBYQ09T0OaAYK_QGSS-soFKghi_LMdfTeikTFQWMQ
+
+<> 2020-05-17T050929.500.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T050908.200.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MjM3MywiaWF0IjoxNTg5NzI0MzczfQ.Ttybwqtex-68r0HFx7VB2dMaPPo1oAw90gdsMT2w7my83nFlMUmtYu9hpmEkHYSAFB4l-JuQnYQQU-0m645UNQ
+
+<> 2020-05-17T050630.404.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T050613.200.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MTg2MCwiaWF0IjoxNTg5NzIzODYwfQ.rlqTp8wuYdcO0mep9Gw-PhjeBpXj0P6jT_iRJ874cpTAwpilAlqY_IpaWLX-Jvo_95DVTegmdCegiSp4l4NjOg
+
+<> 2020-05-17T045813.500.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T045740.200.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MTUxMCwiaWF0IjoxNTg5NzIzNTEwfQ.36lHWztgrCSar3vqoTZEW4bbWzzAzmiZBVpZuYdOQbpoeDHTJ4nGmoPwAm4c6fFmy9IuIR-3hw5z_8ZagJxzCA
+
+<> 2020-05-17T045328.500.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MTUxMCwiaWF0IjoxNTg5NzIzNTEwfQ.36lHWztgrCSar3vqoTZEW4bbWzzAzmiZBVpZuYdOQbpoeDHTJ4nGmoPwAm4c6fFmy9IuIR-3hw5z_8ZagJxzCA
+
+<> 2020-05-17T045320.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/offices
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MTUxMCwiaWF0IjoxNTg5NzIzNTEwfQ.36lHWztgrCSar3vqoTZEW4bbWzzAzmiZBVpZuYdOQbpoeDHTJ4nGmoPwAm4c6fFmy9IuIR-3hw5z_8ZagJxzCA
+
+{
+  "title": "dfghj"
+}
+
+<> 2020-05-17T045206.403.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T045150.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/offices
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MTQ1OSwiaWF0IjoxNTg5NzIzNDU5fQ.sDT5XfW6JcTMd7k1Ababd9PiygKafy8FRMUJOnSIW5trjGyE5CtQGOZvK6K-M5kvfd02yAPQKX0ZYYyJVVknlQ
+
+{
+  "title": "dfghj"
+}
+
+<> 2020-05-17T045140.403.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T045100.200.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MTEzNCwiaWF0IjoxNTg5NzIzMTM0fQ.ETXdJUQHqk3n5CEblaYfEDpavv9NWV3dt-BvpbV_2mxT10qGetou4aKszABBLDIW8drHJozLs8TF0Zd_SH9zWg
+
+<> 2020-05-17T044856.500.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MTEzNCwiaWF0IjoxNTg5NzIzMTM0fQ.ETXdJUQHqk3n5CEblaYfEDpavv9NWV3dt-BvpbV_2mxT10qGetou4aKszABBLDIW8drHJozLs8TF0Zd_SH9zWg
+
+<> 2020-05-17T044849.200.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/offices/14
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTc0MTEzNCwiaWF0IjoxNTg5NzIzMTM0fQ.ETXdJUQHqk3n5CEblaYfEDpavv9NWV3dt-BvpbV_2mxT10qGetou4aKszABBLDIW8drHJozLs8TF0Zd_SH9zWg
+
+<> 2020-05-17T044821.500.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T044534.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-17T123654.200.txt
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/offices
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGV4TWFuYWdlciIsImV4cCI6MTU4OTU1NDIxMiwiaWF0IjoxNTg5NTM2MjEyfQ.i_7Y1xIyPes6_I-KyCOthXTtN6cSCkI1cGHl2RlwBeUEE0pQsi0OXpeQ54e6gHfwJn7n7c0TEFUBGoZY63C5-g
+
+{
+  "title": "dfghj"
+}
+
+<> 2020-05-15T125042.403.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "AlexManager",
+  "password": "111"
+}
+
+<> 2020-05-15T125012.200.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/applications
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJTdmV0YSIsImV4cCI6MTU4OTU1NDEzNiwiaWF0IjoxNTg5NTM2MTM2fQ.msVFA94sar4rGd5DNSiuJaaAbHCEDVxf76vlOsBK6FCyPMegDcy6HBH32glKESPctioxOTc8Rq5fFaC_3TUnmQ
+
+<> 2020-05-15T124924.403.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "Sveta",
+  "password": "444"
+}
+
+<> 2020-05-15T124856.200.json
+
+###
+
+# @no-cookie-jar
+GET http://localhost:8080/applications
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZWZhdWx0IiwiZXhwIjoxNTg5NTU0MDU5LCJpYXQiOjE1ODk1MzYwNTl9.jNlqpuY9Rx_xFoidRFjLt46Fl2BdpyLFn5LObGF8pRvBqNuPGyQ8t2ztGdXFZ1mReaR9nvCuoDrCo51yblmk_Q
+
+<> 2020-05-15T124810.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "default",
+  "password": "1"
+}
+
+<> 2020-05-15T124739.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "default",
+  "password": "1"
+}
+
+<> 2020-05-15T122751.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "default",
+  "password": "1"
+}
+
+<> 2020-05-14T083033.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "testtest",
+  "password": "test"
+}
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "testtest",
+  "password": "test"
+}
+
+<> 2020-05-14T075913.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "testtest",
+  "password": "test"
+}
+
+<> 2020-05-14T042102.200.json
+
+###
+
+# @no-cookie-jar
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "this",
+  "password": "user"
+}
+
+<> 2020-05-14T041501.200.json
+
+###
+
